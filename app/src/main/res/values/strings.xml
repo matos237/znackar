@@ -1,0 +1,14 @@
+<resources>
+    <string-array name="gps_frequency_array">
+        <item>Chôdza</item>
+        <item>Bicykel</item>
+        <item>Auto</item>
+    </string-array>
+
+    <string-array name="image_quality_array">
+        <item>Vysoká</item>
+        <item>Stredná</item>
+        <item>Nízka</item>
+    </string-array>
+
+</resources>
