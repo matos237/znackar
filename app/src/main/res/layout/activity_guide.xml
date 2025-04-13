@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Fotenie -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fotenie"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="V sekcii Fotenie si vytvoríte úlohu, kde zadáte názov a popis vykonávanej činnosti. Po vytvorení úlohy máte možnosť fotiť v dvoch režimoch:\n\n• Režim Stará/Nová – vytvárate dvojice fotografií pred a po.\n• Sériový režim – môžete vytvoriť jednu alebo viac fotografií za sebou.\n\nPočas aktivity nechávajte aplikáciu zapnutú. Po skončení stlačte tlačidlo Koniec na ukončenie aktivity."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#000000" />
+
+        <!-- Záznam trasy -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Záznam trasy"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="V sekcii Záznam trasy si vytvoríte úlohu s názvom a popisom vykonávanej činnosti. Aplikácia následne začne automaticky zaznamenávať vašu polohu.\n\nMapa slúži na zobrazenie vašej aktuálnej pozície. Pomocou tlačidla Waypoint si môžete pridávať vlastné body na trase a pomenovať ich."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#000000" />
+
+        <!-- Knižnica -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Knižnica"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="V sekcii Knižnica môžete prehliadať všetky vaše záznamy. V pravom hornom rohu si môžete filtrovať medzi záznamami z aktivít Fotenie a Záznam trasy.\n\nKaždý záznam obsahuje názov, popis, dátum, typ aktivity a informáciu, či bol exportovaný (označené zelenou fajkou alebo červeným X).\n\nPo kliknutí na záznam máte možnosť:\n• Záznam prehliadnuť\n• Exportovať\n• Odstrániť"
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spôsoby exportu:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:paddingTop="8dp"
+            android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Do zariadenia:\n   – Fotografie: Pictures/Znackar/[názov_úlohy+dátum]\n   – GPX záznamy: Documents/Znackar/[názov_úlohy+dátum].gpx\n\n2. Zdieľanie cez aplikácie (napr. Gmail, Google Drive):\n   – Vytvorí sa ZIP súbor obsahujúci všetky fotografie a v prípade GPX sa vyzdieľa súbor samotný."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#000000" />
+
+        <!-- Nastavenia -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nastavenia"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:paddingTop="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="V sekcii Nastavenia si môžete zvoliť:\n\n• Kvalitu fotografií – Odporúča sa nastaviť Nízka, pretože vytvára fotografie s menšou veľkosťou.\n• Frekvenciu GPS záznamu – Závisí od toho, ako často chcete zaznamenávať polohu alebo ako rýchlo sa pohybujete."
+            android:textSize="16sp"
+            android:lineSpacingExtra="6dp"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</ScrollView>
